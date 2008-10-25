@@ -1,4 +1,4 @@
-===Screenshots V0.3, SVN r1===
+===Screenshots V0.3, SVN r12===
 http://magicstone.de/dzd/random/zobjviewer/ozmav/v031-1.png
 http://magicstone.de/dzd/random/zobjviewer/ozmav/v031-2.png
 http://magicstone.de/dzd/random/zobjviewer/ozmav/v031-3.png

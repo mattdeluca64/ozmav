@@ -1,5 +1,9 @@
+===Screenshots V0.3b, SVN r18===
+http://magicstone.de/dzd/random/zobjviewer/ozmav/v03b-texrewrite1.png
+
 ===WIP Screenshots===
-(changes might not be committed yet)
+(before r18)
+
 http://magicstone.de/dzd/random/zobjviewer/ozmav/v031-primcolor-alpha_2.png
 http://magicstone.de/dzd/random/zobjviewer/ozmav/v031-primcolor-alpha.png
 

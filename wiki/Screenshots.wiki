@@ -1,3 +1,9 @@
+===Screenshots V0.3b/0.4, SVN r20===
+
+http://magicstone.de/dzd/random/zobjviewer/ozmav/v03b2-citex3.png
+http://magicstone.de/dzd/random/zobjviewer/ozmav/v03b2-citex1.png
+http://magicstone.de/dzd/random/zobjviewer/ozmav/v03b2-citex2.png
+
 ===Screenshots V0.3b, SVN r18===
 http://magicstone.de/dzd/random/zobjviewer/ozmav/v03b-texrewrite1.png
 

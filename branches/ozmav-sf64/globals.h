@@ -187,10 +187,6 @@ extern char				GLExtensionsSupported[256];
 extern bool				GLExtensionsUnsupported;
 extern char				GLExtensionsErrorMsg[512];
 
-/* N64 BLENDING & COMBINER SIMULATION VARIABLES */
-extern unsigned long	Blender_Cycle1;
-extern unsigned long	Blender_Cycle2;
-
 /*	------------------------------------------------------------
 	STRUCTURES
 	------------------------------------------------------------ */

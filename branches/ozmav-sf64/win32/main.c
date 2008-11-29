@@ -140,10 +140,6 @@ char			GLExtensionsSupported[256] = "";
 bool			GLExtensionsUnsupported = false;
 char			GLExtensionsErrorMsg[512] = "";
 
-/* N64 BLENDING & COMBINER SIMULATION VARIABLES */
-unsigned long	Blender_Cycle1 = 0x00;
-unsigned long	Blender_Cycle2 = 0x00;
-
 /*	------------------------------------------------------------
 	STRUCTURES
 	------------------------------------------------------------ */

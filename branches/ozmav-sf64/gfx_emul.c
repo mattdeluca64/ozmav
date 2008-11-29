@@ -42,9 +42,6 @@ int Viewer_RenderObject()
 				PrimColor[2] = 1.0f;
 				PrimColor[3] = 1.0f;
 
-				Blender_Cycle1 = 0x00;
-				Blender_Cycle2 = 0x00;
-
 				DListHasEnded = false;
 			glEndList();
 		}
@@ -96,8 +93,8 @@ int Viewer_RenderObject_DListParser(bool CalledFromRDPHalf, unsigned int DLToRen
 			HelperFunc_GFXLogCommand(Position);
 			Viewer_RenderObject_CMDDrawTri1();
 			break;
-		case F3D_TRI4:
-			sprintf(CurrentGFXCmd, "F3D_TRI4             ");
+		case F3DEX_TRI2:
+			sprintf(CurrentGFXCmd, "F3DEX_TRI2           ");
 			sprintf(CurrentGFXCmdNote, "-");
 			HelperFunc_GFXLogCommand(Position);
 			Viewer_RenderObject_CMDDrawTri2();
@@ -243,18 +240,13 @@ int Viewer_RenderObject_CMDVertexList()
 	Renderer_GLTexture = Viewer_LoadTexture();
 	glBindTexture(GL_TEXTURE_2D, Renderer_GLTexture);
 
-	unsigned int TempVertListBank = 0;
-	unsigned long TempVertListOffset = 0;
-	unsigned int TempVertCount = 0;
-	unsigned int TempVertListStartEntry = 0;
+	unsigned int TempVertCount = ((Readout_CurrentByte3 / 2));
+	unsigned int TempVertListStartEntry = (Readout_CurrentByte2 / 2);
 
-	TempVertListBank = Readout_CurrentByte5;
-	TempVertListOffset = Readout_CurrentByte6 << 16;
+	unsigned int TempVertListBank = Readout_CurrentByte5;
+	unsigned long TempVertListOffset = Readout_CurrentByte6 << 16;
 	TempVertListOffset = TempVertListOffset + (Readout_CurrentByte7 << 8);
 	TempVertListOffset = TempVertListOffset + Readout_CurrentByte8;
-	TempVertCount = ((Readout_CurrentByte3 / 2));
-
-	TempVertListStartEntry = TempVertCount - Readout_CurrentByte2 >> 8;
 
 	Viewer_GetVertexList(TempVertListBank, TempVertListOffset, TempVertCount, TempVertListStartEntry);
 

@@ -42,6 +42,9 @@ int Viewer_RenderObject()
 				PrimColor[2] = 1.0f;
 				PrimColor[3] = 1.0f;
 
+				Texture.Y_Parameter = 1;
+				Texture.X_Parameter = 1;
+
 				DListHasEnded = false;
 			glEndList();
 		}
@@ -240,8 +243,8 @@ int Viewer_RenderObject_CMDVertexList()
 	Renderer_GLTexture = Viewer_LoadTexture();
 	glBindTexture(GL_TEXTURE_2D, Renderer_GLTexture);
 
-	unsigned int TempVertCount = ((Readout_CurrentByte3 / 2));
 	unsigned int TempVertListStartEntry = (Readout_CurrentByte2 / 2);
+	unsigned int TempVertCount = (Readout_CurrentByte3 / 2) + TempVertListStartEntry;
 
 	unsigned int TempVertListBank = Readout_CurrentByte5;
 	unsigned long TempVertListOffset = Readout_CurrentByte6 << 16;

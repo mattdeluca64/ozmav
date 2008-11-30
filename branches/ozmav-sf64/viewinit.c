@@ -35,6 +35,10 @@ int Viewer_GetDisplayLists(unsigned long Fsize)
 		DListScanPosition += 2;
 	}
 
+	if(DListInfo_CurrentCount == -1) {
+		MessageBox(hwnd, "No Entry Points found!", "Error", MB_OK | MB_ICONERROR);
+	}
+
 	return 0;
 }
 

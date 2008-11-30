@@ -37,7 +37,7 @@ char			szClassName[] = "OZMAVClass";
 bool			System_KbdKeys[256];
 
 char			AppTitle[256] = "OZMAV-SF64";
-char			AppVersion[256] = "V0.1 (Z0.55)";
+char			AppVersion[256] = "V0.15 (Z0.55)";
 char			AppBuildName[256] = "insanity strikes - in space!";
 char			AppPath[512] = "";
 char			INIPath[512] = "";
@@ -199,7 +199,7 @@ int Viewer_OpenObject()
 
 	DListInfo_DListToRender = 0;
 
-	Renderer_EnableLighting = true;
+	glEnable(GL_LIGHTING); glEnable(GL_NORMALIZE); Renderer_EnableLighting = true;
 
 	memset(Vertex, 0x00, sizeof(Vertex));
 

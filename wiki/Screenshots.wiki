@@ -1,47 +1,8 @@
-===Screenshots V0.5, SVN r32+===
-Kakariko Village
+===Screenshots V0.6, SVN before/at r50===
+Ice Cavern, Spirit Temple, "sasatest"
 
-http://magicstone.de/dzd/random/zobjviewer/ozmav/v05-03-mtex_semi.png
+http://magicstone.de/dzd/random/zobjviewer/ozmav/v06-icecavern-romload.png
+http://magicstone.de/dzd/random/zobjviewer/ozmav/v06-spirittemple-texmgr.png
+http://magicstone.de/dzd/random/zobjviewer/ozmav/v06b-newdldetect-sasatest.png
 
-===Screenshots V0.4c, SVN r28===
-Spirit Temple, Ganon's Castle (boss room), Majora's Mask - Termina Field, Hyrule Field
-
-http://magicstone.de/dzd/random/zobjviewer/ozmav/v04c-citex_fullfix.png
-http://magicstone.de/dzd/random/zobjviewer/ozmav/v04c-citex_fullfix2.png
-http://magicstone.de/dzd/random/zobjviewer/ozmav/v04c-mm_termina.png
-http://magicstone.de/dzd/random/zobjviewer/ozmav/v04c-hyrulefield.png
-
-===Screenshots V0.4b, SVN r25===
-Majora's Mask - Termina Field, top of Clock Tower
-
-http://magicstone.de/dzd/random/zobjviewer/ozmav/v04b-mm_termina.png
-http://magicstone.de/dzd/random/zobjviewer/ozmav/v04b-mm_clocktower-top.png
-
-===Screenshots V0.3b/0.4, SVN r20===
-Kakariko Village, Inside the Deku Tree, Forest Temple
-
-http://magicstone.de/dzd/random/zobjviewer/ozmav/v03b2-citex3.png
-http://magicstone.de/dzd/random/zobjviewer/ozmav/v03b2-citex1.png
-http://magicstone.de/dzd/random/zobjviewer/ozmav/v03b2-citex2.png
-
-===Screenshots V0.3b, SVN r18===
-Hyrule Field
-
-http://magicstone.de/dzd/random/zobjviewer/ozmav/v03b-texrewrite1.png
-
-===WIP Screenshots===
-(before r18)
-
-Hyrule Field, "test01"
-
-http://magicstone.de/dzd/random/zobjviewer/ozmav/v031-primcolor-alpha_2.png
-http://magicstone.de/dzd/random/zobjviewer/ozmav/v031-primcolor-alpha.png
-
-===Screenshots V0.3, SVN r12===
-Hyrule Field, Castle Courtyard, Sacred Forest Meadow, "syotes2", Chamber of the Sages
-
-http://magicstone.de/dzd/random/zobjviewer/ozmav/v031-1.png
-http://magicstone.de/dzd/random/zobjviewer/ozmav/v031-2.png
-http://magicstone.de/dzd/random/zobjviewer/ozmav/v031-3.png
-http://magicstone.de/dzd/random/zobjviewer/ozmav/v031-4.png
-http://magicstone.de/dzd/random/zobjviewer/ozmav/v031-5.png
+Older Screenshots: ScreenshotsOld

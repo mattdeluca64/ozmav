@@ -1,3 +1,8 @@
+===Screenshots V0.6b, SVN r54===
+Hyrule Field (collision rendering enabled)
+
+http://magicstone.de/dzd/random/zobjviewer/ozmav/v06b-colrender-on.png
+
 ===Screenshots V0.6, SVN before/at r50===
 Ice Cavern, Spirit Temple, "sasatest"
 

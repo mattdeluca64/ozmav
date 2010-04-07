@@ -1,3 +1,17 @@
+===Screenshots v0.8, SVN r87===
+
+http://magicstone.de/dzd/random/zobjviewer/ozmav/v08/1_mm-termina_gui.png
+
+===Screenshots v0.75, SVN r76===
+
+http://magicstone.de/dzd/random/zobjviewer/ozmav/v075/1_comb-mm-termina.png
+http://magicstone.de/dzd/random/zobjviewer/ozmav/v075/2_comb-mm-clock1.png
+http://magicstone.de/dzd/random/zobjviewer/ozmav/v075/3_comb-mm-clock2.png
+http://magicstone.de/dzd/random/zobjviewer/ozmav/v075/4_comb-mm-room.png
+http://magicstone.de/dzd/random/zobjviewer/ozmav/v075/5_comb-oot-goron.png
+http://magicstone.de/dzd/random/zobjviewer/ozmav/v075/6_comb-oot-jabu.png
+http://magicstone.de/dzd/random/zobjviewer/ozmav/v075/7_comb-oot-ice.png
+
 ===Screenshots V0.6b, SVN r56===
 Kakariko Village (new collision highlighting)
 

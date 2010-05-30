@@ -8,7 +8,7 @@ To my knowledge, each level has one file inside the game's "file system" that co
 
 == Level Setup ==
 
-The _level setup data_ or _level header_ is a block of 0x44 (68) bytes that sets such things as the BGM, fog properties and more. It's always located directly before the actual level layout data in each file. Pointers to each setup data block can be found inside the second file in the file system, at offset 0xCE158, or at offset 0xCF1A8 in the regular ROM. This pointer table is ordered by level IDs, which is the same as the Level Select GameShark code, so ex. Corneria's pointer is at 0xCE158/0xCF1A8, while the Training stage's is at 0xCE180/0xCF1D0.
+The _level setup data_ or _level header_ is a block of 0x44 (68) bytes that sets such things as the BGM, fog properties and more. It's always located directly before the actual level layout data in each file. Pointers to each setup data block can be found inside the second file in the file system, at offset 0xCE158, or at offset 0xCF1A8 in the regular ROM. This pointer table is ordered by level IDs, which is the same as the Level Select Gameshark code, so ex. Corneria's pointer is at 0xCE158/0xCF1A8, while the Training stage's is at 0xCE180/0xCF1D0.
 
 Using the Training stage's data as an example here, which has its setup data at 0x6A60 inside its file, the following level properties are known: (absolute offsets used)
 

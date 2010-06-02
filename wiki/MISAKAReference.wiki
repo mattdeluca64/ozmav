@@ -4,6 +4,8 @@
 
 libMISAKA is a console and user interface library based on PDCurses, designed to allow interfacing with generally GUI-less programs (ex. with just a single OpenGL window). In addition to a console system, featuring functionality such as a command history, scrollable message log and more, the library also provides the framework and functions for creating simple text-based user interfaces.
 
+http://i50.tinypic.com/16466e.png
+
 ==Initialization & Basic Usage==
 
 libMISAKA is initialized by using the function {{{MSK_Init}}} with the string to be displayed in the libMISAKA console's title bar as the parameter.
@@ -74,4 +76,4 @@ int main(int argc, char * argv[])
 
 ==Function Reference==
 
-(TODO: function reference etc here)
+(TODO: function reference, user interface creation, etc. here)

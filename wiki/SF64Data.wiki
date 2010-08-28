@@ -2,6 +2,8 @@
 
 (Note: All offsets are for game version US 1.0!)
 
+*(Note 2: Page BADLY needs update!)*
+
 = Level Files =
 
 To my knowledge, each level has one file inside the game's "file system" that contains all of its data, besides sound-related things - textures, models, level layout. Thus, one way to find a specific level's file is to check each file for textures that belong to the level you want to find.
